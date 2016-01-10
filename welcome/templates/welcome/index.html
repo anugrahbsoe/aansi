@@ -1,0 +1,16 @@
+{% load static %}<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site_title }}</title>
+    <link rel="stylesheet" href="{% static 'welcome/css/welcome.css' %}">
+</head>
+<body>
+    
+    <div class="greeting-wrapper">
+        <h1>{{ greeting_title }}</h1>
+        <p>{{ greeting_description }}</p>
+    </div>
+
+</body>
+</html>
