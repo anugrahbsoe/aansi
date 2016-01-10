@@ -1,7 +1,7 @@
 *.nja
 *.pyc
+aansi/dev/*
 data/db/db.sqlite3
-data/static/
-data/media/
+data/static/*
+data/media/*
 manage_dev.py
-aansi/dev/
